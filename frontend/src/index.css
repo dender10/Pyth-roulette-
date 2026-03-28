@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #110a24;
+  --color-surface: #1a1035;
+  --color-surface-light: #2a1d4e;
+  --color-neon-green: #00ff88;
+  --color-neon-pink: #ff3366;
+  --color-pyth: #7B2FD4;
+  --color-text: #e8e2f4;
+  --color-text-dim: #7b6f99;
+  --font-display: "Orbitron", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-mono);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
